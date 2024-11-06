@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .res-69 {
+    @apply res-69:flex-col  res-69:items-center res-69:fixed res-69:right-0 res-69:top-[60px] res-69:px-10 res-69:bg-blue-400 res-69:h-full res-69:-mr-[500px];
+  }
+  .res-30 {
+    @apply res-30:flex-col  res-30:items-center res-30:fixed res-30:right-0 res-30:top-[60px] res-30:px-10 res-30:bg-blue-400 res-30:h-full res-30:-mr-[500px];
+  }
+  .input-css {
+    @apply p-2 w-full outline-none border border-sky-500 rounded;
+  }
+  .switch-btn {
+    @apply text-sky-700 cursor-pointer;
+  }
+  .login-container {
+    @apply fixed w-full h-full bg-black/25 top-0 z-10 flex justify-center items-center;
+  }
+  .background {
+    @apply h-full w-full float-left top-0 left-0 bottom-0 right-0 p-0 fixed object-cover -z-10 object-top;
+  }
+  .mini-btns {
+    @apply w-[10px] h-[10px]  rounded-full mx-2;
+  }
+  .showMenu {
+    @apply flex-col backdrop-blur-[20px] fixed right-0 top-0 h-full min-w-[280px] gap-[100px] px-5 res-70:relative res-70:backdrop-blur-none res-70:h-[auto] res-70:flex-row ;
+  }
+  .liFocus {
+    @apply bg-white px-8 text-black font-semibold py-3 rounded-full;
+  }
+  .li-space {
+    @apply mx-9 my-10 ;
+  }
+}

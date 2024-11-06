@@ -1,0 +1,75 @@
+Basic reset
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Movie grid container */
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Individual movie card */
+  .movie-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Movie poster image */
+  .movie-card img {
+    width: 100%;
+    height: 375px;
+    object-fit: cover;
+  }
+  
+  /* Movie info container */
+  .movie-info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .movie-info h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .movie-info span {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Movie overview */
+  .movie-card p {
+    padding: 0 15px 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
